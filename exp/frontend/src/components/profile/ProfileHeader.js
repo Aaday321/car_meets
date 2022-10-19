@@ -1,5 +1,10 @@
 import './ProfileHeader.css'
-const ritchie = require('./DELETEME/ritchie.jpg')
+
+//DATA BASE LOAD HERE
+import DennisRitchie from './DELETEME/FakeProfile'; //Replace Me with a database load
+
+const ritchie = require('./DELETEME/photos/ritchie.jpg')
+console.log(DennisRitchie);
 
 function ProfileHeader(){
     return(
